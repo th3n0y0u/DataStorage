@@ -7,12 +7,7 @@ game.Players.PlayerAdded:connect(function(player)
 	local stats = Instance.new("Folder")
 	stats.Name = "leaderstats"
 	stats.Parent = player
-
-	local money = Instance.new("IntValue")
-	money.Name = "Soop Stolen" 
-	money.Value = 0 
-	money.Parent = stats
-
+  
 	local cash = Instance.new("IntValue")
 	cash.Name = "Cash" 
 	cash.Value = 0 
